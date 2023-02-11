@@ -6,14 +6,18 @@ OpenAI is a non-profit artificial intelligence research company. Our mission is 
 
 At OpenAI, we are focused on developing advanced AI technologies and applying them to real-world problems. Our research focuses on developing algorithms and systems that can learn from data, understand complex tasks, and make decisions with minimal human intervention. We are also exploring ways to use AI to help people better understand the world around them and make better decisions.
 
+## Live Server ![](https://img.shields.io/badge/Server-Live-brightgreen)
+
+[![](https://img.shields.io/badge/OpenAI-Live-brightgreen)](https://chat-gpt-ai.netlify.app/)
+
 ## Our Projects
 
 We have several projects in development, including:
 
-- [Gym](https://gym.openai.com/): A toolkit for developing and comparing reinforcement learning algorithms
-- [Universe](https://universe.openai.com/): A platform for measuring and training agents in a wide variety of environments
-- [Roboschool](https://github.com/openai/roboschool): A physics simulator for training robots in realistic environments
-- [Spinning Up](https://spinningup.openai.com/en/latest/): An educational resource designed to help people learn about deep reinforcement learning
+- [Gym](https://chat-gpt-ai.netlify.app/): A toolkit for developing and comparing reinforcement learning algorithms
+- [Universe](https://chat-gpt-ai.netlify.app/): A platform for measuring and training agents in a wide variety of environments
+- [Roboschool](https://chat-gpt-ai.netlify.app/): A physics simulator for training robots in realistic environments
+- [Spinning Up](https://chat-gpt-ai.netlify.app/): An educational resource designed to help people learn about deep reinforcement learning
 
 ## Get Involved
 
