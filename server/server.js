@@ -22,7 +22,7 @@ const origin = ['http://localhost:5173', 'https://chat-gpt-ai.netlify.app'];
 // );
 app.use(
   cors({
-    origin: origin.forEach((url) => url),
+    origin: origin,
   })
 );
 
