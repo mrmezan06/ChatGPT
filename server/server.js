@@ -14,7 +14,7 @@ const openai = new OpenAIApi(configuration);
 const app = express();
 app.use(
   cors({
-    origin: 'http://localhost:3000',
+    origin: 'http://localhost:5173',
   })
 );
 app.use(express.json());
