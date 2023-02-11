@@ -13,13 +13,22 @@ const openai = new OpenAIApi(configuration);
 
 const app = express();
 
-const origin = ['http://localhost:5173', 'https://chat-gpt-ai.netlify.app'];
+/* Single Origin Access
+app.use(
+  cors({
+    origin: 'https://chat-gpt-ai.netlify.app',
+  })
+  ); */
 
-// app.use(
-//   cors({
-//     origin: 'https://chat-gpt-ai.netlify.app',
-//   })
-// );
+/* Public Access
+  app.use(
+    cors({
+      origin: '*',
+    })
+    );
+    */
+
+const origin = ['http://localhost:5173', 'https://chat-gpt-ai.netlify.app'];
 app.use(
   cors({
     origin: origin,
